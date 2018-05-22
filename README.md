@@ -50,6 +50,16 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
+* What does the term "DevOps" mean to you?
+* "Hard"/hands-on/SRE vs
+* "Soft"/Three Ways/Theory of Constraints/philosophy of DevOps
+* Describe your experience with task management
+  - Agile
+  - Kanban
+  - Waterfall
+* What drew you to DevOps
+* Describe the most challenging situation that you were faced with and how did you fix it?
+* How do you stay current?
 
 
 #### [[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
@@ -201,6 +211,141 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How do you stop a DDoS attack?
 * How can you see content of an ip packet?
 * What is IPoAC (RFC 1149)?
+* Say I open a web browser and enter an address. I hit enter. Describe how the connection the works in as much detail as possible. Trying to hear that they understand:
+  * DNS
+  * Network routing
+  * Load Balancing
+  * Ports on server
+  * Service that is serving port
+* What’s a PTR in DNS?
+* What’s a MX record in DNS?
+* How a CDN chooses the closest host to serve a client?
+* In which cases would you choose to not implement a CDN?
+* How do you measure the performance of a server/web application? (tools, methods)
+* What are secure ways to SSH to a server inside a private network from a public location?
+* Using the OSI model, which layer has the responsibility of making sure that the packet gets where it is supposed to go?
+
+	What is the subnet mask, network address and broadcast address for the following address: 123.65.47.62/22?
+
+	What command is used to show all open ports and/or socket connections on a machine?
+
+	What is NAT? What is it used for?
+
+	Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
+
+	What is a packet filter and how does it work?
+
+	What is a proxy and how does it work?
+
+	What is ARP and what is it used for?
+
+	What is the difference between TCP and UDP?
+
+	What command is used to show the route table for a machine?
+
+	Explain asynchronous routing?
+
+	What is the purpose of a default gateway?
+
+	A TCP connection on a network can be uniquely defined by 4 things. What are those things?
+
+	When a client running a web browser connects to a web server, what is the source port of the connection?
+
+	What is the destination port of the connection?
+
+	What is SMTP?
+
+	What is an SMTP relay?
+
+	Give the basic scenario of how a mail message is delivered via SMTP
+
+	What function does DNS play on a network?
+
+	What is an A record?
+
+	What is an NS record?
+
+	What is an MX record?
+
+	What is a PTR record?
+
+	What is a DNS forwarder?
+
+	What command is used to lookup DNS records?
+
+	What is meant by "Reverse Lookup"?
+
+	What is LDAP and what is it used for?
+
+	What is a DN in LDAP?
+
+	What is SSH?
+
+	What is SSL?
+
+	What is IDS?
+
+	What is IPS?
+
+	What is the difference between IDS and IPS?
+
+	What is meant by the term "DOS Attack"?
+
+	What is RAID?
+
+	What is swap and what is it used for?
+
+	What command will show the available disk space on the Unix/Linux system?
+
+	How do you determine the public and prive IP addresses, if applicable, of a Unix/Linux system from the command line?
+
+	What Unix/Linux command will alter a file's ownership?
+
+	What Unix/Linux command will alter a file's permissions?
+
+	What Unix/Linux command will show all processes running on a system?
+
+	What Unix/Linux command will show the details of a file(permissions, size, timestamp)?
+
+	What Unix/Linux command would you use to list all currently loaded kernel modules?
+
+	What command would you use to telnet to port 7777 on a machine with IP address 10.10.10.128?
+
+	What Unix/Linux command(s) will show a system's current resource allocations?
+
+	What is the Unix/Linux command to remove a directory and its contents?
+
+	What is the name and location of the system log on a Unix or Linux system?
+
+	What would you do to recover a lost the root password to a Unix/Linux system?
+
+	What is the difference between hardlink and symlink?
+
+	What happens when you remove the source to a symlink?
+
+	What are some of the security risks of symlinks?
+
+	Explain a hardlink
+
+	Where is a filename stored?
+
+	What happens when a hardlink is removed
+
+	how do you know when a file is removed
+
+	Write a locking function in bash
+
+	What is a pre-emptive kernel, what does that mean to you?
+
+	What is an atomic operation?
+
+	How does a switch get a mac address?
+
+	What type of packet to discover a router?
+
+	How does traceroute work?
+
+	A careless sysadmin executes the following command: chmod 444 chmod - what do you do to fix this?
 
 
 
@@ -235,6 +380,13 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continuous integration and deployment?
 * How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
+* Are you familiar with CI tools? Which ones?
+* Describe your experience implementing continuous deployment
+* How do you setup an end-to-end pipeline from dev to deployment? (long answer)
+  * How can Docker help in this case?
+* How frequently have you been deploying?
+  * Have you been able to improve the frequency of deployments? If so, how?
+
 
 #### [[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
@@ -247,6 +399,78 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * You have deleted by error a running script, what could you do to restore it?
 * What will happen on 19 January 2038?
 * How to reboot server when reboot command is not responding?
+* Do you have any side projects?
+* If you could learn any technology now, what would be?
+
+
+#### Security Questions
+
+* Difference between authorization and authentication?
+* Describe two-factor authentication
+* Describe how would you secure a web application
+  * HTTP vs HTTPS
+* Talk about PKI/your experience with SSL/Certificates
+
+#### Cloud Questions
+
+* Have you used AWS or other cloud platforms?
+  * How long for?
+  * In production or just at home on personal projects?
+* How to keep logs on servers or containers with ephemeral storage?
+* Where to look when trying to reduce cloud costs without reducing capacity?
+* Name the "Big Three" cloud providers
+  * AWS
+  * GCE
+  * Azure
+
+
+
+
+##### AWS Questions
+
+* Describe the advantages/disadvantages of using CloudFormation to manage your resources
+* Would you use CloudFormation to create a RDS database?
+* Describe EC2 spot instances and which use cases it can be used to reduce costs
+* Talk about IAM roles
+* Talk about VPC's
+  * Subnets
+  * Internet Gateways
+  * NATing
+  * NACL's
+  * VPN/VPC Peering
+
+#### Database Questions
+
+* What's the use case for a database read replica?
+
+#### Architecture Questions
+
+* How to scale a database without just increasing capacity of a single machine while maintaining [ACID](http://en.wikipedia.org/wiki/ACID)?
+* How to choose between relational database and noSQL?
+* What advantages a NoSQL database like MongoDB has, comparing to MySQL?
+* How to manage API versions?
+* How to reduce load time of a dynamic website?
+* How to reduce load time of a static website?
+
+#### Automation Questions
+
+* Have you used Puppet, Chef, Salt or Ansible?
+  * How long have you used it for?
+  * Have you used it in production?
+* Describe the size of the environment that you automated (how many servers, small scale or large scale)
+
+#### CI Questions
+
+
+#### Coding Questions
+
+* Describe a dev/test/production workflow using GIT
+  * Feature branching vs trunk based development
+  * Advantages of requiring pull requests and approvals
+* More on [Front-end Developer Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/README.md)
+
+#### Fun Questions
+
 
 
 #### [[⬆]](#toc) <a name='demo'>Demo Time:</a>
